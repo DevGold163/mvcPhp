@@ -1,3 +1,11 @@
 <?php
 
-echo "<h1>404 Not Found</h1>";
+class _404 extends Controller {
+
+    public function index($a='',$b='',$c=''){
+
+        echo "This is the 404 controller";
+    }
+
+}
+
